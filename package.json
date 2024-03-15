@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ingrithsantamaria/campTwoChallenge#readme",
   "devDependencies": {
-    "cypress": "^13.7.0"
+    "cypress": "^13.7.0",
+    "cypress-wait-until": "^3.0.1"
   }
 }

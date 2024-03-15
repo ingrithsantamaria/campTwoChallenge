@@ -5,26 +5,26 @@ describe('template spec', () => {
     cy.visit('/textinput')
     cy.viewport(414, 896);
   });
-  it('passes', () => {
+  it('User clicks on the hamburger menu', () => {
     textInput.validateHamburIconMenu()
     textInput.validateOptionHamburgMenu()
     textInput.validateNewOpenWindowHome()
   })
-  it('passes', () => {
+  it('User views menu options', () => {
     textInput.validateHamburIconMenu()
     textInput.validateOptionHamburgMenu()
   })
-  it('passes', () => {
+  it('User clicks on the home option in the menu', () => {
     textInput.validateHamburIconMenu()
     textInput.validateOptionHamburgMenu()
     textInput.validateNewOpenWindowHome()
   })
-  it('passes', () => {
+  it('User clicks on the resources option in the menu', () => {
     textInput.validateHamburIconMenu()
     textInput.validateOptionHamburgMenu()
     textInput.validateNewOpenWindowResources()
   })
-  it.only('passes', () => {
+  it('User writes a text and clicks on the button', () => {
     textInput.clickAndValidateInputText()
     textInput.clickUpdateButton()
     textInput.validateUpdateTextButton()
